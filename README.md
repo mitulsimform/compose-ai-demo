@@ -5,11 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Demo
 
 ```
-https://copose-ai.netlify.app/
+[https://copose-ai.netlify.app/](https://copose-ai.netlify.app/)
 ```
 
 ```
-https://www.loom.com/share/4bed8730e54f4073a5e407593fb480aa
+[Demo Explaination](https://www.loom.com/share/4bed8730e54f4073a5e407593fb480aa)
 ```
 
 ## Clone Project
