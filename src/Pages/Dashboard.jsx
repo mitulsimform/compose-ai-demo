@@ -15,7 +15,7 @@ function Dashboard() {
         historyCmd,
         uuidList
     } = UseCommandLine()
-    const [error, setError] = useState(null)
+
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [form] = Form.useForm();
 
@@ -52,7 +52,7 @@ function Dashboard() {
                         <Input placeholder="Custom Name" />
                     </Form.Item>
                     <Form.Item>
-                        <Input placeholder="Pattern i.e. ${someamout} + ${another_amount}" />
+                        <Input placeholder={"Pattern i.e. ${someamout} + ${another_amount}"} />
                     </Form.Item>
                 </Form>
             </Modal>}
