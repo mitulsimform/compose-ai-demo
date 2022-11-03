@@ -42,9 +42,11 @@ This command will create production builds.
 
 ### Project requirements:
 
-``
-Project is basically regarding the sytem which can reduce time of customer to do some operations. and give power to customer by performing those action on one slash command. Where user can easily do math, automate some of operation like formating text, do some replace or remove word from paragraph.
-``
+```
+Project is basically regarding the sytem which can reduce time of customer to do some operations. 
+and give power to customer by performing those action on one slash command. Where user can easily 
+do math, automate some of operation like formating text, do some replace or remove word from paragraph.
+```
 
 ### Assumptions
 
