@@ -1,8 +1,8 @@
 import { useState, useRef } from "react";
 
-export const UseCommandLine = () => {
+const UseSlashCommand = () => {
     //Predefined Command
-    const preDefCommand = ['/add:', '/uppercase:', '/uuid:', '/math:', '/interest:'];
+    const commands = ['/add:', '/uppercase:', '/uuid:', '/math:', '/interest:'];
     //Command value for textarea
     const [commandValue, setCommandValue] = useState('');
     //Set Current Command
@@ -40,8 +40,8 @@ export const UseCommandLine = () => {
             }
             else {
                 console.log("command", e.target.value)
-                if (!preDefCommand.find(e => e === command)) {
-                    cmd = preDefCommand.filter(e => e.includes(commandValue))
+                if (!commands.find(e => e === command)) {
+                    cmd = commands.filter(e => e.includes(commandValue))
                     setCommand(cmd[0])
                 }
                 debugger
@@ -177,7 +177,7 @@ export const UseCommandLine = () => {
     }
 
     return {
-        preDefCommand,
+        commands,
         commandValue,
         command,
         setCommand,
@@ -194,3 +194,4 @@ export const UseCommandLine = () => {
 }
 
 
+export default UseSlashCommand

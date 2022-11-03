@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { UseCommandLine } from '../Hooks';
+import UseSlashCommand from '../Hooks/slash';
 import { Modal, Form, List, Col, Row, Input, Badge } from 'antd';
 
 function Dashboard() {
     const {
-        preDefCommand,
+        commands,
         commandValue,
         command,
         onCommandChange,
@@ -14,7 +14,7 @@ function Dashboard() {
         setCommandValue,
         historyCmd,
         uuidList
-    } = UseCommandLine()
+    } = UseSlashCommand()
 
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [form] = Form.useForm();
@@ -93,7 +93,7 @@ function Dashboard() {
                     typeof commandValue === 'string' && commandValue?.startsWith("/") &&
                     <ul className="command-list">
                         {
-                            preDefCommand.filter(e => e.includes(commandValue))?.map((cmd) => {
+                            commands.filter(e => e.includes(commandValue))?.map((cmd) => {
                                 return (
                                     <li key={cmd}>
                                         <a
@@ -106,7 +106,7 @@ function Dashboard() {
                                 )
                             })
                         }
-                        {!preDefCommand.filter(e => e.includes(commandValue)).length &&
+                        {!commands.filter(e => e.includes(commandValue)).length &&
                             <li className="no-result">
                                 No other command found
                             </li>
