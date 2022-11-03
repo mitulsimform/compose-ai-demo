@@ -43,13 +43,15 @@ This command will create production builds.
 ### Project requirements:
 
 ```
-Start a message with / an it will show the available command to choose from the suggestion.
+Project is basically regarding the sytem which can reduce time of customer to do some operations. and give power to customer by performing those action on one slash command. Where user can easily do math, automate some of operation like formating text, do some replace or remove word from paragraph.
 ```
 
 ### Assumptions
 
 ```
-After typing slash commands, the existing text in textbox will be affected. Newly typed text after executing slash command will not affected.
+### Assumptions are simple, 
+- Thinking this business modal in the way were. code will be written to reduce time of customer and it will automat things based on given command. 
+- 
 ```
 
 ### Limitations
