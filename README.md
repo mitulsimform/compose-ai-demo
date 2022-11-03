@@ -40,26 +40,6 @@ You may also see any lint errors in the console.
 This command will create production builds.
 ```
 
-### Here is the list of predefine command
-
-```js
-const  preDefCommand = ['/add:', '/uppercase:']
-
-start message with / an it will show available command to choose from. Because of time limitation, manual typing command will not work as expected.
-
-```
-
-<h2>/add:</h2>
-
-```
-This command will add numbers. it will ignore any string.
-
-For ex. : /add: 1 2 3 will result into 6
-
-/add: 1 hello 2 hi 3 demo 4abcs result into 6
-
-```
-
 ### Project requirements:
 
 ```
