@@ -52,18 +52,32 @@ do math, automate some of operation like formating text, do some replace or remo
 
 ```
 ### Assumptions are simple, 
-- Thinking this business modal in the way were. code will be written to reduce time of customer and it will automat things based on given command. 
-- 
+Thinking this business modal in the way were. code will be written to reduce time of customer 
+and it will automat things based on given command. and commands will take place of all manual work
 ```
 
 ### Limitations
 
 ```
-User must choose a command from the options; manually entered command will not produce the expected results.
+- Just typing won't select command automatically. Need to press enter or select using mouse click.
+- while selecting using press enter it won't store values in history
 ```
 
 ### Milestones
 
 ```
-In the future, we can implement backend support to get command list, And using that we can implement many functionality Like Join group, Start meeting, Open app.
+First milestone
+- Complete existing bugs
+- There is one modal already implemented for custom commands. so completing that modal to give power for adding formulas as command.
+- Add login/signup features so custom commands can be user specific
+
+Second milestone (**Will prefer to create SDK parallely**)
+- User can publish there methamatical commands among the platform.
+- Some thirdpary app support.
+- User can add thirdparty app like asana, shopify.
+
+Third milestone
+-  Create commands for third party apps. So by performing those command user can simply fetch data from thirdparty platform and send to user.
+
+so on enhancements can be done
 ```
