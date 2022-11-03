@@ -5,26 +5,30 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Demo
 
 ```
-https://compose-ai-test.vercel.app/
+https://copose-ai.netlify.app/
+```
+
+```
+https://www.loom.com/share/4bed8730e54f4073a5e407593fb480aa
 ```
 
 ## Clone Project
 
 ```
-git clone https://github.com/jayeshsimform/compose-ai-test.git
+git clone https://github.com/mitulsimform/compose-ai-demo.git
 ```
 
 ## Install node modules
 
 ```
-npm install
+yarn
 ```
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn start`
 
 ```Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -33,7 +37,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 ```
 
-### `npm run build`
+### `yarn run build`
 
 ```
 This command will create production builds.
@@ -58,36 +62,6 @@ For ex. : /add: 1 2 3 will result into 6
 /add: 1 hello 2 hi 3 demo 4abcs result into 6
 
 ```
-
-### Add Command
-
-![alt text](https://raw.githubusercontent.com/jayeshsimform/compose-ai-test/master/src/images/add-command-code.png)
-
-### Add Command Output
-
-![alt text](https://github.com/jayeshsimform/compose-ai-test/blob/master/src/images/add-command-output.png?raw=true)
-
-### Number with String
-
-![alt text](https://github.com/jayeshsimform/compose-ai-test/blob/master/src/images/add-command-validation-code.png?raw=true)
-
-### Number with String Output
-
-![alt text](https://github.com/jayeshsimform/compose-ai-test/blob/master/src/images/add-command-validation-code-output.png?raw=true)
-
-<h2>/uppercase:</h2>
-
-```
-/uppercase command will convert lower case string into uppercase.
-
-For ex. : "/uppercase: hello world"
-Output : HELLO WORLD.
-
-```
-
-![alt text](https://github.com/jayeshsimform/compose-ai-test/blob/master/src/images/uppercase-command-code.png?raw=true)
-
-![alt text](https://github.com/jayeshsimform/compose-ai-test/blob/master/src/images/uppercase-command-output.png?raw=true)
 
 ### Project requirements:
 
